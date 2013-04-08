@@ -1,4 +1,4 @@
-package au.id.teda.androidboilerplate.fragment;
+package au.id.teda.androidboilerplate.activity;
 
 import android.os.Bundle;
 import android.app.Activity;
