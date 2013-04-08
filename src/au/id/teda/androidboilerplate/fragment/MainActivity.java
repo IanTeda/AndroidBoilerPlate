@@ -1,8 +1,11 @@
-package au.id.teda.androidboilerplate;
+package au.id.teda.androidboilerplate.fragment;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import au.id.teda.androidboilerplate.R;
+import au.id.teda.androidboilerplate.R.layout;
+import au.id.teda.androidboilerplate.R.menu;
 
 public class MainActivity extends Activity {
 
