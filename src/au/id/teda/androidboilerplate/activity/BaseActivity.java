@@ -1,8 +1,11 @@
 package au.id.teda.androidboilerplate.activity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.ViewGroup;
 import au.id.teda.androidboilerplate.R;
+import au.id.teda.androidboilerplate.util.FontUtils;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
@@ -22,6 +25,12 @@ public class BaseActivity extends SherlockFragmentActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+        // Set font to Roboto on SDK < 11
+    	if (Build.VERSION.SDK_INT < 11) {
+    	    ViewGroup godfatherView = (ViewGroup) this.getWindow().getDecorView();
+    	    FontUtils.setRobotoFont(this, godfatherView);
+    	}
 
 	}
 	
