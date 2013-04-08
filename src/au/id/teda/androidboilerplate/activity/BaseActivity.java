@@ -5,6 +5,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import au.id.teda.androidboilerplate.R;
+import au.id.teda.androidboilerplate.helper.LayoutHelper;
 import au.id.teda.androidboilerplate.util.FontUtils;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -21,6 +22,9 @@ public class BaseActivity extends SherlockFragmentActivity {
 	// Debug tag to be used for application
 	public static final String DEBUG_TAG = "boiler";
 	
+	// Reference layout helper class. Used to determine screen size, density, tablet etc.
+	private LayoutHelper mLayoutHelper;
+	
 	// Called 1st in the activity life cycle
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +35,8 @@ public class BaseActivity extends SherlockFragmentActivity {
     	    ViewGroup godfatherView = (ViewGroup) this.getWindow().getDecorView();
     	    FontUtils.setRobotoFont(this, godfatherView);
     	}
+    	
+    	mLayoutHelper = new LayoutHelper(this);
 
 	}
 	
