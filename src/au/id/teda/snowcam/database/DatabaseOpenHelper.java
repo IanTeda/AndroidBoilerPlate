@@ -1,4 +1,4 @@
-package au.id.teda.androidboilerplate.database;
+package au.id.teda.snowcam.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

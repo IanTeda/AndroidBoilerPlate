@@ -1,7 +1,7 @@
-package au.id.teda.androidboilerplate.activity;
+package au.id.teda.snowcam.activity;
 
 import android.os.Bundle;
-import au.id.teda.androidboilerplate.R;
+import au.id.teda.snowcam.R;
 
 public class MainActivity extends BaseActivity {
 
