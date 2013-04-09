@@ -8,9 +8,11 @@
     android:paddingTop="@dimen/margin_vert"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <fragment
+        android:id="@+id/fragment_demo"
+        android:name="au.id.teda.androidboilerplate.fragment.DemoFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/fragment_demo" />
 
 </RelativeLayout>
