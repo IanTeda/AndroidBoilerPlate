@@ -3,8 +3,10 @@ package au.id.teda.androidboilerplate.activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.view.ViewGroup;
 import au.id.teda.androidboilerplate.R;
+import au.id.teda.androidboilerplate.fragment.AboutDialogFragment;
 import au.id.teda.androidboilerplate.helper.LayoutHelper;
 import au.id.teda.androidboilerplate.util.FontUtils;
 
@@ -68,13 +70,17 @@ public class BaseActivity extends SherlockFragmentActivity {
     		// This is called when the Home (Up) button is pressed in the Action Bar.
 	        case android.R.id.home:
 	            Intent i = new Intent(this, MainActivity.class);
-	            i.addFlags(
-	                    Intent.FLAG_ACTIVITY_CLEAR_TOP |
-	                    Intent.FLAG_ACTIVITY_NEW_TASK);
+	            i.addFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
 	            startActivity(i);
 	            finish();
 	            return true;
-	            
+	        // Show the about dialog
+	        case R.id.menu_base_about:
+        		FragmentManager fm = getSupportFragmentManager();
+                AboutDialogFragment mDialog = new AboutDialogFragment();
+                mDialog.show(fm, "dlg_edit_name");
+                return true;
+            // Open the settings activity
 	        case R.id.menu_base_settings:
                 Intent mSettingsActivityIntent = new Intent(getBaseContext(), SettingsActivity.class);
                 startActivity(mSettingsActivityIntent);

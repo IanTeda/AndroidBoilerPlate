@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Default colors -->
+    <color name="background">#ffffff</color>
+    <color name="background_alt">#cbc8c2</color>
+    <color name="background_alt_dark">#aca79d</color>
+    <color name="background_alt_light">#e2e1de</color>
+    <color name="base">#564e47</color>
+    <color name="base_light">#8d8175</color>
+    <color name="accent">#f2483a</color>
+    <color name="accent_pressed">#f4665a</color>
+    
+    <!-- Text colors -->
+    <color name="text">#6e746e</color>
+    <color name="text_light">#a2a6a2</color>
+    <color name="text_lighter">#dfe0df</color>
+    <color name="text_dark">#242624</color>
+    
+    <!-- Flash message colors -->
+    <color name="flash_message_warning_background">#fff1c2</color>
+    <color name="flash_message_warning_border">#dcbf5e</color>
+    <color name="flash_message_warning_text">#745f1d</color>
+    <color name="flash_message_error_background">#f2dede</color>
+    <color name="flash_message_error_border">#caa5a5</color>
+    <color name="flash_message_error_text">#8d313d</color>
+</resources>
