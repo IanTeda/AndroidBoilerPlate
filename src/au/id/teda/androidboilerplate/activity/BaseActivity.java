@@ -3,7 +3,6 @@ package au.id.teda.androidboilerplate.activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.ViewGroup;
 import au.id.teda.androidboilerplate.R;
 import au.id.teda.androidboilerplate.helper.LayoutHelper;
@@ -57,7 +56,7 @@ public class BaseActivity extends SherlockFragmentActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getSupportMenuInflater().inflate(R.menu.base_menu, menu);
+		getSupportMenuInflater().inflate(R.menu.menu_base, menu);
 		
 		return true;
 	}
@@ -75,6 +74,11 @@ public class BaseActivity extends SherlockFragmentActivity {
 	            startActivity(i);
 	            finish();
 	            return true;
+	            
+	        case R.id.menu_base_settings:
+                Intent mSettingsActivityIntent = new Intent(getBaseContext(), SettingsActivity.class);
+                startActivity(mSettingsActivityIntent);
+                return true;
 	    	default:
 	            return super.onOptionsItemSelected(item);
         }
