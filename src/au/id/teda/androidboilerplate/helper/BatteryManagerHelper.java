@@ -1,4 +1,4 @@
-package au.id.teda.snowcam.helper;
+package au.id.teda.androidboilerplate.helper;
 
 import android.content.Context;
 import android.content.Intent;

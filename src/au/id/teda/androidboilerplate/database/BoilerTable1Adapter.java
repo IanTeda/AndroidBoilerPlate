@@ -1,4 +1,4 @@
-package au.id.teda.snowcam.database;
+package au.id.teda.androidboilerplate.database;
 
 import android.content.Context;
 import android.database.SQLException;
