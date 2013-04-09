@@ -1,8 +1,10 @@
 package au.id.teda.androidboilerplate.activity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.view.ViewGroup;
 import au.id.teda.androidboilerplate.R;
@@ -24,6 +26,10 @@ public class BaseActivity extends SherlockFragmentActivity {
 	// Debug tag to be used for application
 	public static final String DEBUG_TAG = "boiler";
 	
+	// Activity shared preferences
+	protected SharedPreferences mSettings;
+	protected SharedPreferences.Editor mEditor;
+	
 	// Reference layout helper class. Used to determine screen size, density, tablet etc.
 	private LayoutHelper mLayoutHelper;
 	
@@ -39,6 +45,10 @@ public class BaseActivity extends SherlockFragmentActivity {
     	}
     	
     	mLayoutHelper = new LayoutHelper(this);
+    	
+		// Set up shared preferences
+		mSettings = PreferenceManager.getDefaultSharedPreferences(this);
+    	mEditor = mSettings.edit();
 
 	}
 	
