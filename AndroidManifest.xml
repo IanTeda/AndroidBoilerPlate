@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="au.id.teda.androidboilerplate"
+    package="au.id.teda.snowcam"
     android:versionCode="1"
     android:versionName="Alpha" >
 
@@ -20,7 +20,7 @@
         android:label="@string/application_name"
         android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
         <activity
-            android:name="au.id.teda.androidboilerplate.activity.MainActivity"
+            android:name="au.id.teda.snowcam.activity.MainActivity"
             android:label="@string/application_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="au.id.teda.androidboilerplate.activity.SettingsActivity"
+            android:name="au.id.teda.snowcam.activity.SettingsActivity"
             android:label="@string/activity_settings_title" >
         </activity>
     </application>
