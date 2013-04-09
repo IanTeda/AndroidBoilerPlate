@@ -1,4 +1,4 @@
-package au.id.teda.snowcam.fragment;
+package au.id.teda.androidboilerplate.fragment;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
-import au.id.teda.snowcam.R;
+import au.id.teda.androidboilerplate.R;
 
 public class AboutDialogFragment extends DialogFragment {
 	

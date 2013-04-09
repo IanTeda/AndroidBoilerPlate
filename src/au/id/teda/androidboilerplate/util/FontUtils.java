@@ -1,4 +1,4 @@
-package au.id.teda.snowcam.util;
+package au.id.teda.androidboilerplate.util;
 
 import android.content.Context;
 import android.graphics.Typeface;

@@ -1,11 +1,11 @@
-package au.id.teda.snowcam.fragment;
+package au.id.teda.androidboilerplate.fragment;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import au.id.teda.snowcam.activity.BaseActivity;
+import au.id.teda.androidboilerplate.activity.BaseActivity;
 
 import com.actionbarsherlock.app.SherlockFragment;
 

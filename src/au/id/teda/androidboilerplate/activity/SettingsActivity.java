@@ -1,4 +1,4 @@
-package au.id.teda.snowcam.activity;
+package au.id.teda.androidboilerplate.activity;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -16,7 +16,7 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
-import au.id.teda.snowcam.R;
+import au.id.teda.androidboilerplate.R;
 import java.util.List;
 
 //TODO: Update setting string keys for consistency

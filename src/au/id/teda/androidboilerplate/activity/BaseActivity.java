@@ -1,4 +1,4 @@
-package au.id.teda.snowcam.activity;
+package au.id.teda.androidboilerplate.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentManager;
 import android.view.ViewGroup;
-import au.id.teda.snowcam.R;
-import au.id.teda.snowcam.fragment.AboutDialogFragment;
-import au.id.teda.snowcam.helper.LayoutHelper;
-import au.id.teda.snowcam.util.FontUtils;
+import au.id.teda.androidboilerplate.R;
+import au.id.teda.androidboilerplate.fragment.AboutDialogFragment;
+import au.id.teda.androidboilerplate.helper.LayoutHelper;
+import au.id.teda.androidboilerplate.util.FontUtils;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
