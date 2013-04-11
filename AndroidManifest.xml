@@ -18,7 +18,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/application_name"
-        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        android:theme="@style/AppTheme" >
         <activity
             android:name="au.id.teda.androidboilerplate.activity.MainActivity"
             android:label="@string/application_name" >
