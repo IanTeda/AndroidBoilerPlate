@@ -1,5 +1,5 @@
 <!-- 
-Default folder for layouts. Only if they do not exist in others
+Layout folder for legacy -3.0 devices in portrait
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
