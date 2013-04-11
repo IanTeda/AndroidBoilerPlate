@@ -36,7 +36,7 @@ public class LayoutHelper {
 	 * @param px = PX to be converted
 	 * @return float value for DP
 	 */
-	public float convertPxToDp (float px){
+	public float convertPixelToDip (float px){
 		float density = getScreenDensity();
 		return px / density;
 	}
@@ -46,7 +46,7 @@ public class LayoutHelper {
 	 * @param dp = DP to be converted
 	 * @return float value for PX
 	 */
-	public float convertDpToPx(float dp){
+	public float convertDipToPixels(float dp){
 		float density = getScreenDensity();
 		return dp * density;
 	}
