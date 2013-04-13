@@ -1,0 +1,4 @@
+<h3>Android Boiler Plate</h3>
+Version <b>Beta</b><br>
+Copyright 2013<br>
+<b>www.teda.id.au/code/android-boiler-plate</b>

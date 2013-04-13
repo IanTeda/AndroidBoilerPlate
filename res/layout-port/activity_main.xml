@@ -1,0 +1,21 @@
+<!-- 
+Layout folder for legacy -3.0 devices in portrait
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_vert"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:paddingTop="@dimen/margin_vert"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/fragment_demo"
+        android:name="au.id.teda.androidboilerplate.fragment.DemoFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/fragment_demo" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 
+    Finding Colors / Pallets   = http://www.colourlovers.com/
+    Complimentary / Schemes    = http://colorschemedesigner.com/
+    Color Shading / Light Dark = http://0to255.com/
+    -->
+	
+	<!-- Application Background Color -->
+    <color name="background">#ffffff</color>
+    
+    <!-- Main Application Color / Accent -->
+    <color name="accent">#FFCF9A</color>
+    <color name="accent_light">#FFE4C8</color>
+    <color name="accent_dark">#A66E32</color>
+    
+    <!-- Alternate / Complimentary Color -->
+    <color name="background_alt">#cbc8c2</color>
+    <color name="background_alt_light">#e2e1de</color>
+    <color name="background_alt_dark">#aca79d</color>
+    
+    <!-- Triad Color -->
+    <color name="base">#8AC7DE</color>
+    <color name="base_light">#BDE1EF</color>
+    <color name="base_dark">#2D7590</color>
+    
+    <!-- Text colors -->
+    <color name="text">#6e746e</color>
+    
+    <!-- Flash message colors -->
+    <color name="flash_message_warning_background">#fff1c2</color>
+    <color name="flash_message_warning_border">#dcbf5e</color>
+    <color name="flash_message_warning_text">#745f1d</color>
+    <color name="flash_message_error_background">#f2dede</color>
+    <color name="flash_message_error_border">#caa5a5</color>
+    <color name="flash_message_error_text">#8d313d</color>
+</resources>
